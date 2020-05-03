@@ -1,0 +1,70 @@
+/*GRODTEST*/
+
+.div-border {
+    border: solid aqua 2px;
+}
+
+.top-border { border: solid black 2px}
+
+.container-border {
+
+    border: solid red 2px;
+}
+
+.row-border {
+
+    border: solid blue 2px;
+
+}
+
+/*NAVIGATIONBAR*/
+
+.name,
+.intro-text{
+    text-align: center;
+}
+
+.introduction {
+    margin-top: 10%;
+}
+
+.heading {
+    border: solid green 2px;
+}
+
+.test-2 {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/aj_portret.jpg") no-repeat center;
+    background-size: contain;
+    min-height: 600px;
+    vertical-align: middle;
+    border: solid yellow 2px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+h3.center-header {
+    text-align: center;
+}
+
+
+
+/*MEDIA QUERIES*/
+@media(max-width: 992px) {
+    .logo {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: auto auto 30px;
+        max-width: 50%;
+    }
+
+    .intro-text {
+        text-align: left;
+    }
+}
+

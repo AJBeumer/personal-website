@@ -1,13 +1,12 @@
 /*GRIDTEST*/
 
-.div-border {
+/*.div-border {
     border: solid aqua 2px;
 }
 
 .top-border { border: solid black 2px}
 
 .container-border {
-    min-height: 600px;
     border: solid red 2px;
 }
 
@@ -16,51 +15,59 @@
     border: solid blue 2px;
 
 }
-
+*/
 /*NAVIGATIONBAR*/
+
+
+
+/*IMAGE&INTRO*/
+
+.about-text {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+img.profile-picture {
+    vertical-align: middle;
+    border-style: none;
+}
 
 .name,
 .intro-text{
     text-align: center;
 }
 
-
-
-
-
-.logo {
-    background: url("../images/aj_portret.jpg") no-repeat center;
-    background-size: contain;
-    min-height: 600px;
-    border: solid yellow 2px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.about-text {
-    padding-top: 15%;
-    margin: 0;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.heading {
-    border: solid green 2px;
-
-}
-
 /*PROJECTS*/
+
+.projects {
+    background: #fafafa;
+}
 
 h3.center-header {
     text-align: center;
 }
 
+.test123 {
+    padding-right: 10%;
+    padding-left: 10%;
+}
 
+/*PAGEDIVIDERS*/
+
+.page-divider {
+    margin-top: 5em;
+    width: 20%;
+    border: 2px solid black;
+
+}
 
 /*MEDIA QUERIES*/
-@media(max-width: 992px) {
 
+@media (max-width : 480px) {
+    .mobile-fix {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 
     .intro-text {
         text-align: left;

@@ -122,7 +122,7 @@
 $(function () {
     $('#centercon').sliphover({
         target: '.container-card',
-        backgroundColor: 'rgba(0,0,0, .3)',
+        backgroundColor: 'rgba(0,0,0, .5)',
         caption: 'title'
     });
 });

@@ -62,15 +62,15 @@ h3.center-header {
 
 
 .skill-section {
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .project-section {
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .name {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .intro-name {
@@ -100,7 +100,7 @@ h3.center-header {
 
 .progress-type {
     position: absolute;
-    left: 0px;
+    left: 0;
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;

@@ -14,7 +14,7 @@
         backgroundColor: "rgba(0,0,0,.7)",
         reverse: !1,
         height: "100%",
-        withLink: !0
+        withLink: !1
     };
     g.prototype = {
         init: function () {

@@ -45,8 +45,19 @@ body {
     font-weight: 600;
 }
 
+.active {
+    font-weight: 600;
+}
+
 /*NAVIGATIONBAR*/
 
+.nav-item {
+    margin-right: 5px;
+}
+
+.nav-item{
+    text-align: right;
+}
 
 a.menu-styling {
     color: #2c3531 !important;

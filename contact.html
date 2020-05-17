@@ -51,12 +51,12 @@
                         <h2 class="page-header">Send me a message!</h2>
                         <p>Fill out the form below to send me a direct e-mail. Would you rather talk to me?<br/>
                             Give me a call on +31 6 57 54 17 82. Looking forward hearing from you!</p>
-                        <form>
+                        <form method="post" action="#">
                             <div class="row">
-                                <div class="col form-input form-name">
+                                <div class="col-md-6 col-sm-12 form-input form-name">
                                     <input type="text" class="form-control" placeholder="First name">
                                 </div>
-                                <div class="col form-input last-name">
+                                <div class="col-md-6 col-sm-12 form-input last-name">
                                     <input type="text" class="form-control" placeholder="Last name">
                                 </div>
                                 <div class="col-md-12 form-input">
@@ -69,6 +69,11 @@
                                     <textarea class="form-control" rows="4"></textarea>
                                 </div>
                             </div>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-secondary submit-button">Send Project Request</button>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -77,7 +82,7 @@
     </div>
 </section>
 <!-- Footer -->
-<footer class="page-footer font-small pt-4">
+<footer class="page-footer pt-4">
 
     <!-- Footer Elements -->
     <div class="container">
@@ -85,27 +90,22 @@
         <!-- Social buttons -->
         <ul class="list-unstyled list-inline text-center">
             <li class="list-inline-item">
-                <a class="btn-floating btn-fb mx-1">
+                <a class="btn-floating btn-fb mx-4" href="http://www.facebook.com" target="_blank">
                     <i class="fa fa-facebook social-icon-footer"></i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="btn-floating btn-tw mx-1">
-                    <i class="fa fa-twitter social-icon-footer"> </i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a class="btn-floating btn-gplus mx-1">
+                <a class="btn-floating btn-gplus mx-4" href="https://www.instagram.com/ajbeumer/" target="_blank">
                     <i class="fa fa-instagram social-icon-footer"></i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="btn-floating btn-li mx-1">
+                <a class="btn-floating btn-li mx-4" href="https://www.linkedin.com/in/ajsbeumer/" target="_blank">
                     <i class="fa fa-linkedin social-icon-footer"></i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="btn-floating btn-dribbble mx-1">
+                <a class="btn-floating btn-dribbble mx-4" href="https://github.com/AJBeumer" target="_blank">
                     <i class="fa fa-github social-icon-footer"></i>
                 </a>
             </li>
@@ -117,7 +117,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="http://www.ajbeumer.com">AJ Beumer</a>
+        <a class="general-link" href="http://www.ajbeumer.com">AJ Beumer</a>
     </div>
     <!-- Copyright -->
 
@@ -132,11 +132,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://github.com/wayou/SlipHover/blob/master/src/jquery.sliphover.min.js"></script>
-<script id="rendered-js" src="assets/js/sliphover.js"></script>
-
-
 </body>
 </html>

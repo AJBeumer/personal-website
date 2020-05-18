@@ -79,18 +79,18 @@ As a person who would like to collaborate I would like to see:
 
 ### Design Ideas
 
-#####Fonts:
+##### Fonts:
 
 - [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) is used as a primary font because of the friendly look and easy to read for visitors.
 - [Comfortaa](https://fonts.google.com/specimen/Comfortaa?query=Comfortaa) is used for headers to create an open and slim look.
 
-#####Colors:
+##### Colors:
 
 The site makes use of 2 different colors:<br>
 - RGB(44,53,49) or (#2C3531) is a dark-grey color used throughout the entire website. The reason for using the color is to create a softer look what black will create.
 - RBG(94,149,90) or (#5E955A) is a warm green color. Green was chosen as a secondary color as it represents a new beginning and growth. To use a warmer green color would create a more relaxing experience.
 
-#####Styling:
+##### Styling:
 For styling a minimalistic approach was chosen to give a clean look and put the focus more on the content.
 <br>
 <br>
@@ -100,10 +100,10 @@ For styling a minimalistic approach was chosen to give a clean look and put the 
 - <b>project overlay</b> - the overlay is using `backgroundColor: 'rgba(0,0,0,.5)'` to give it a darker opacity to clearly show the text but still shows the underlying image.
 - <b>buttons | social media icons</b> - the main color grey is used for these to include them in the styling and hovering the items will give the secondary green color which creates a nice subtle effect.
 
-#####Profile image:
+##### Profile image:
 The website does not use any background styling, but a graphical profile image. The image is designed by the partner of the developer and represents yours truly.
 
-###Wireframes
+### Wireframes
 Wireframes were made using Balsamiq for a clean looking design layout.
 
 - Desktop Wireframes
@@ -114,4 +114,4 @@ Wireframes were made using Balsamiq for a clean looking design layout.
 
 - MobileWireframes
 
-###Developer and Business Purpose
+### Developer and Business Purpose

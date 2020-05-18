@@ -37,6 +37,7 @@ body {
 .general-link {
     color: #2c3531;
     text-decoration: underline;
+    letter-spacing: 0.07em;
 }
 
 .general-link:hover {

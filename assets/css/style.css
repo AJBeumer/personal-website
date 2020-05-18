@@ -35,9 +35,10 @@ body {
 }
 
 .general-link {
+    display:inline-block;
     color: #2c3531;
     text-decoration: underline;
-    letter-spacing: 0.07em;
+    font-weight: 600;
 }
 
 .general-link:hover {
@@ -45,6 +46,7 @@ body {
     text-decoration: underline;
     font-weight: 600;
 }
+
 
 .active {
     font-weight: 600;
@@ -191,6 +193,7 @@ img.profile-picture {
 
 .submit-button {
     background-color: #2c3531;
+    margin-top: 20px;
 }
 
 .submit-button:hover {
@@ -289,4 +292,9 @@ img.profile-picture {
          text-decoration: underline;
          color: white;
      }
+
+     /*CONTACT*/
+    .submit-button {
+        margin-top: 30px;
+    }
 }

@@ -227,6 +227,22 @@ In the error.html page (besides the navigation menu and footer) the following wa
 2) Clicked on the "Contact page" link in the text to see if it referred me back to the Contact page.
 2) Resized the browser to test if the content goes below the profile image at 767px screen width.
 
+## Deployment
+
+I build the website using [WebStorm](https://www.jetbrains.com/webstorm/) which has GIT as a build in function to commit and push the code to my GitHub repository.  
+
+To commit the code the following commands were used:
+1) `git add .` to move all changes to the staging environment or `git add (filename)` to move a specific file to the staging environment.
+2) `git commit -m "message here""` to save the changes with the message what the changes include.
+3) `git push` moves the changes from the local repository to the github repository.
+
+To view the deployed version of my website I needed to take the following steps:
+1. Log in to GitHub.
+2. Select AJBeumer/personal-website from the list of repositories.
+3. Select Settings from the navbar near the top of the page.
+4. Scroll down to where it says Github Pages, there is a subtitle labelled Source, click that and change the source to be master branch.
+5. The page is automatically refreshed and ready for deployment, it can take up to 5-10 minutes for it to be viewable.
+
 ## Credits
 
 ### Content

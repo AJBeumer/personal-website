@@ -5,7 +5,7 @@ User Centric Frontend Development - Milestone Project 1 - Personal Website - Aar
 
 <div align="center">
 <h1>
-<img src="assets/images/personal-site.PNG" width=420 alt="AJ Beumer">
+<img src="assets/readmeImages/personal-site.PNG" width=420 alt="AJ Beumer">
 </h1>
 <br>
 For Milestone Project 1 I decided to build my personal website with the idea to inform the visitors who I am, what I made and what I can do.
@@ -104,14 +104,63 @@ For styling a minimalistic approach was chosen to give a clean look and put the 
 The website does not use any background styling, but a graphical profile image. The image is designed by the partner of the developer and represents yours truly.
 
 ### Wireframes
-Wireframes were made using Balsamiq for a clean looking design layout.
+Balsamiq is used to create wireframes of the site for desktop, tablet and mobile view.
 
-- Desktop Wireframes
-
-
-- Tables Wireframes
-
-
-- MobileWireframes
+- [Home page](assets/readmeImages/Home.png)
+- [About page](assets/readmeImages/About.png)
+- [Skills page](assets/readmeImages/Skills.png)
+- [Projects page](assets/readmeImages/Projects.png)
+- [Contact page](assets/readmeImages/Contact.png)
 
 ### Developer and Business Purpose
+1. Demonstration of learned skills (HTML5/CSS/Bootstrap) throughout the first modules
+2. Good website to use for portfolio
+
+## Features
+
+### Existing Features
+
+##### 
+
+
+## Testing
+
+I tested the validity of my code by using [W3C Markup Validation Service](https://validator.w3.org/) to ensure my HTML was valid. Also the build in validator in my IDE [WebStorm](https://www.jetbrains.com/webstorm/) helped me validate and format my code.
+
+### Testing devices
+I tested the site on two different machines:
+1) Windows OS with a 3440x1400 screen. Browsers used for testing: Chrome (version 81.0.4044.138), Firefox (version 76.0.1), Microsoft Edge (version 44.18362.449.0), Internet Explorer (version 11.836.18362.0)
+2) MacBook Pro with a 2880x1800 screen. Browsers used for testing: Chrome (version 81.0.4044.138), Safari (version 13.1)
+
+In the development tools of Chrome I tested the site on all the different mobile devices and tablets to ensure the site, not only looked, but also worked the same as expected.
+<br/>The styling (CSS) of the site was tested throughout development to make sure styling would look exactly the same on all the browsers and devices. 
+
+All tests are similar in all the different browsers. 
+
+##### Testing navigation menu
+
+The steps I took to test the navigation menu are:
+1) Hover over the navigation items (Home | About | Skills | Projects | Contact) on all the pages to see if the expected hover effect worked.
+2) Clicked all the navigation items (Home | About | Skills | Projects | Contact) on all the pages to test if the links worked and were referring to the correct page.
+3) Clicked on the top left logo on all the pages to see if the link to index.html worked.
+4) Resized the browser to make sure the menu items were replaced with a button which is set to 992px screen width.
+5) Clicked all the navigation items in the dropdown manu (Home | About | Skills | Projects | Contact) on all the pages to test if the links worked and were referring to the correct page.
+
+##### Testing footer content
+
+The steps I took to test the footer content:
+1) Hover over the social media icons (Facebook | Instagram | LinkedIn | Github) on all the pages to see if the expected hover effect worked.
+2) Clicked all the social media icons (Facebook | Instagram | LinkedIn | Github) on all the pages to test if the links were referring to the correct external site.
+3) Hover over the "AJBeumer" link in the copyright text on all the pages to see if the expected hover effect worked.
+4) Clicked on the "AJBeumer" link in the copyright text on all the pages to see if the link referred to the correct external website.
+
+##### Testing Home page
+
+In the home page (besides the navigation menu and footer) the following was tested:
+1) Hover over the "Contact me" link in the text, to see if the expected hover effect worked.
+2) Clicked on the "Contact me" link in the text to see if it referred me to the Contact page.
+3) Resized the browser to test if the content goes below the profile image at 767px screen width.
+
+
+
+

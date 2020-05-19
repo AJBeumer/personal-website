@@ -201,6 +201,11 @@ img.profile-picture {
     border-color: #5E955A;
 }
 
+.error-link {
+    text-decoration: none;
+    color: #fafafa;
+}
+
 /*FOOTER*/
 
 .social-icon-footer {

@@ -248,7 +248,6 @@ I want to thank:
 
 - my mentor Spencer Barriball (spence_mentor) for keeping me on track, giving tips on how to solve difficulties I was running into and where to focus.
 - GatorWAM19 for reviewing the website and help me with the "Send Project Request" error.
-- CharlieJT for giving a great example on how to write a README.md
 - Rocio Cordero for helping me fixing the bigger grammar mistakes last minute.
 
 ### Disclaimer

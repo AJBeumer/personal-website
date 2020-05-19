@@ -41,7 +41,7 @@ For Milestone Project 1 I decided to build my personal website with the idea to 
 5. [**Deployment**](#deployment)
 
 6. [**Credits**](#credits)
-    - [**Contents**](#contents)
+    - [**Content**](#content)
     - [**Media**](#media)
     - [**Help with code**](#help-with-code)
     - [**Acknowledgements**](#acknowledgements)
@@ -120,7 +120,22 @@ Balsamiq is used to create wireframes of the site for desktop, tablet and mobile
 
 ### Existing Features
 
-##### 
+
+## Technologies Used
+This project made use of the following technologies:
+
+- HTML | CSS | bit of JavaScript - HTML5 and CSS3 was used for the styling of the website and Javascript was used for the navigation menu and hover effect on the projects page.
+
+- [WebStorm](https://www.jetbrains.com/webstorm/) - the IDE to develop the website
+
+- [GitHub](https://github.com/) - to backup the code, to store code for others to review and to deploy the code
+
+- [Google Fonts](https://fonts.google.com/) - to provide the fonts for the website
+
+- [Font Awesome](https://fontawesome.com/) - to provide the social media icons
+
+- [Bootstrap](https://getbootstrap.com/) - to provide an easy grid-system and easy to use components
+
 
 
 ## Testing
@@ -144,7 +159,7 @@ The steps I took to test the navigation menu are:
 2) Clicked all the navigation items (Home | About | Skills | Projects | Contact) on all the pages to test if the links worked and were referring to the correct page.
 3) Clicked on the top left logo on all the pages to see if the link to index.html worked.
 4) Resized the browser to make sure the menu items were replaced with a button which is set to 992px screen width.
-5) Clicked all the navigation items in the dropdown manu (Home | About | Skills | Projects | Contact) on all the pages to test if the links worked and were referring to the correct page.
+5) Clicked all the navigation items in the dropdown menu (Home | About | Skills | Projects | Contact) on all the pages to test if the links worked and were referring to the correct page.
 
 ##### Testing footer content
 
@@ -160,6 +175,33 @@ In the home page (besides the navigation menu and footer) the following was test
 1) Hover over the "Contact me" link in the text, to see if the expected hover effect worked.
 2) Clicked on the "Contact me" link in the text to see if it referred me to the Contact page.
 3) Resized the browser to test if the content goes below the profile image at 767px screen width.
+
+##### Testing About Page
+
+## Credits
+
+### Content
+
+All the content has been created by the developer. 
+
+### Media
+
+All the media has been created by the developer.
+
+### Help with code
+
+- 
+
+### Acknowledgements
+
+I want to thank:
+
+- my mentor Spencer Barriball (spence_mentor) for keeping me on track, giving tips on how to solve difficulties I was running into and where to focus.
+
+### Disclaimer
+
+The information contained in this website is for general information and educational purposes only. 
+
 
 
 

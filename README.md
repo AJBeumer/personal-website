@@ -120,6 +120,18 @@ Balsamiq is used to create wireframes of the site for desktop, tablet and mobile
 
 ### Existing Features
 
+- Navigation menu - allows visitors to brows through the various pages throughout the website by clicking the navigation items
+- Social media buttons - allows visitors to visit the specific social media page of the developer by clicking the icons
+- About section - allows the user to collapse the year selected to read the text about that year. Only one year will be visible by clicking selected year.
+- Project section hover - allows the user to see where they hover in the direction the mouse is going and see the technologies used for the project.
+- Project section - allows the user to see and visit the projects worked on by clicking on a specific project.
+- Contact form - allows the user to send in a mail to get more information and/or work together by filling out their name, email address and message and clicking the "Send Project Request" button. 
+
+### Features Left to Implement
+
+- When more projects are added I want visitors to select projects based upon technologies used.
+- Contact form should still be implemented to send a message to my email address.
+- About section could have a timeline where you scroll through the years but that will need JavaScript
 
 ## Technologies Used
 This project made use of the following technologies:
@@ -136,6 +148,7 @@ This project made use of the following technologies:
 
 - [Bootstrap](https://getbootstrap.com/) - to provide an easy grid-system and easy to use components
 
+- [SlipHover](https://github.com/wayou/SlipHover) - to provide an awesome mouse tracking overlay for the project page
 
 
 ## Testing
@@ -165,18 +178,54 @@ The steps I took to test the navigation menu are:
 
 The steps I took to test the footer content:
 1) Hover over the social media icons (Facebook | Instagram | LinkedIn | Github) on all the pages to see if the expected hover effect worked.
-2) Clicked all the social media icons (Facebook | Instagram | LinkedIn | Github) on all the pages to test if the links were referring to the correct external site.
+2) Clicked all the social media icons (Facebook | Instagram | LinkedIn | Github) on all the pages to test if the links were referring to the correct external site in a new tab.
 3) Hover over the "AJBeumer" link in the copyright text on all the pages to see if the expected hover effect worked.
-4) Clicked on the "AJBeumer" link in the copyright text on all the pages to see if the link referred to the correct external website.
+4) Clicked on the "AJBeumer" link in the copyright text on all the pages to see if the link referred to the correct external website in a new tab.
 
 ##### Testing Home page
 
-In the home page (besides the navigation menu and footer) the following was tested:
+In the index.html page (besides the navigation menu and footer) the following was tested:
 1) Hover over the "Contact me" link in the text, to see if the expected hover effect worked.
 2) Clicked on the "Contact me" link in the text to see if it referred me to the Contact page.
 3) Resized the browser to test if the content goes below the profile image at 767px screen width.
 
 ##### Testing About Page
+
+In the about.html page (besides the navigation menu and footer) the following was tested:
+1) Clicked on each year to see if that year shows the correct text and click again to see if it disappears again.
+2) Hovered over each year to see if the expected hover effect worked.
+3) Resized the browser to test if the content goes below the profile image, if the border disappeared and the years became buttons at 767px screen width and smaller.
+
+##### Testing Skills Page
+
+In the skills.html page (besides the navigation menu and footer) the following was tested:
+1) Resized the browser to test if the content goes below the profile image at 767px screen width.
+2) Resized the browser to test if progress bar resized based upon screen width.
+
+##### Testing Projects Page
+
+In the projects.html page (besides the navigation menu and footer) the following was tested:
+1) Hover over the projects to see if the sliphover overlay worked in the direction the mouse was going.
+2) Tested on mobile and tablet that the sliphover overlay was turned off.
+3) Clicked on each project to test if the link referred me to the correct site in a new tab.
+4) Resized the browser to test if projects went from 3 in a row to 2 in a row at screen width 992px
+5) Resized the browser to test if the content goes below the profile image at 767px screen width.
+6) Resized the browser to test if projects went from 2 in a row to 1 in a row at screen width 575px.
+
+##### Testing Contact Page
+
+In the contact.html page (besides the navigation menu and footer) the following was tested:
+1) The input fields for First name, Last name, Email address and text-input by entering some characters
+2) Entering an invalid email address to test if error was shown when submitting.
+3) After entering all data the site redirects the user to error page as the form is not connected (yet)
+4) Resized the browser to test if the content goes below the profile image at 767px screen width and the Last name goes below the First name.
+
+ ##### Testing Error Page
+ 
+In the error.html page (besides the navigation menu and footer) the following was tested:
+1) Hover over the "Contact page" link in the text, to see if the expected hover effect worked.
+2) Clicked on the "Contact page" link in the text to see if it referred me back to the Contact page.
+2) Resized the browser to test if the content goes below the profile image at 767px screen width.
 
 ## Credits
 
@@ -190,13 +239,17 @@ All the media has been created by the developer.
 
 ### Help with code
 
-- 
+- Ideas on how to fit the awesome mouse tracking overlay were used from [Sliphover demo](http://wayou.github.io/SlipHover/withlink.html#)
+- CodeInstitute in teaching me HTML|CSS|Bootstrap
 
 ### Acknowledgements
 
 I want to thank:
 
 - my mentor Spencer Barriball (spence_mentor) for keeping me on track, giving tips on how to solve difficulties I was running into and where to focus.
+- GatorWAM19 for reviewing the website and help me with the "Send Project Request" error.
+- CharlieJT for giving a great example on how to write a README.md
+- Rocio Cordero for helping me fixing the bigger grammar mistakes last minute.
 
 ### Disclaimer
 
